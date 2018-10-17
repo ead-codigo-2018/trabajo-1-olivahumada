@@ -2,7 +2,7 @@
 .container {
   padding: 1em;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   background: #white;
   color: #black;
   font-size: 1.1em;
@@ -20,6 +20,7 @@ img {
 
 h1 {
   font-size: 1.8em;
+  margin-top: 1.5em;
 }
 
 h2 {
@@ -105,11 +106,13 @@ p{
   grid-row-end: 2;
   }
 
-  .note {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.note {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: left;
+  }
 
   }
 
